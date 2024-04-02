@@ -1,0 +1,13 @@
+def dani (number):
+    total = sum(number)
+    avarage = total/len(number)
+    return avarage
+my_list = [50,48,58,90,56,70]
+avg = dani(my_list)
+print(avg)
+if avg < 50:
+    print('you didnt selected for man of the match')
+elif avg > 50:
+    print ('you selected for man of the match')
+else:
+    print('wish for next matches')
